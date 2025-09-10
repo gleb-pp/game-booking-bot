@@ -14,7 +14,11 @@ Innopolis University has a cabinet with board games available to all students. T
 
 ### Solution
 
-Solution
+The developed bot allows students to book games on their own:
+
+- **Students** can view the list of available games, select a game and time slot.
+- **Employees** do not need to communicate with each student individually; they only need to indicate the available slots in the table.
+- **Non-technical users** can monitor the current list of games in Google Sheets table, where the bot indicates the statuses.
 
 ## Features
 
@@ -22,36 +26,33 @@ Solution
 When user interacts with the bot for the first time, the bot asks user for their corporate email address, verifies in the database and reserves for the user.
 
 <p align="left">
-<img src="https://raw.githubusercontent.com/gleb-pp/game-booking-bot/refs/heads/main/pic/auth.jpg" width="300"/>
+<img src="https://raw.githubusercontent.com/gleb-pp/game-booking-bot/refs/heads/main/pic/auth.jpg" width="250"/>
 </p>
 
 ### Game Selection
-When user want to take a game, the bot filters the games by language and shows the list of available games.
+When user want to take a game, the bot filters the games by language (to support foreign students) and shows the list of available games.
 
 <p align="left">
 <img src="https://raw.githubusercontent.com/gleb-pp/game-booking-bot/refs/heads/main/pic/select.jpg" width="750"/>
 </p>
 
-### Timeslot 
-When user selected the game to take, the bot suggests to choose an appropriate timeslot.
+### Meeting Arrangement
+The administrator simply needs to mark the available time slots, after which students can sign up for the game giveaway themselves..
 
-<p align="center">
-<img src="https://raw.githubusercontent.com/gleb-pp/game-booking-bot/refs/heads/main/pic/timeslot.jpg" width="200"/>
+<p align="left">
+<img src="https://raw.githubusercontent.com/gleb-pp/game-booking-bot/refs/heads/main/pic/timeslot.jpg" width="250"/>
 </p>
 
 ### Admin panel
-The bot 
+The bot offers employees a convenient interface for manipulating games directly in the chat.
+
+<p align="left">
+<img src="https://raw.githubusercontent.com/gleb-pp/game-booking-bot/refs/heads/main/pic/admin.jpg" width="250"/>
+</p>
 
 ### Google Sheets Integration
+The bot records game statuses in a Google Sheets table, allowing non-technical administrators to track game statuses in a browser or application.
 
-
-### Built With
-
-[![FastAPI][FastAPI]][FastAPI-url]
-[![React][React]][React-url]
-[![PostgreSQL][PostgreSQL]][PostgreSQL-url]
-[![NginX][NginX]][NginX-url]
-[![Docker][Docker]][Docker-url]
-
-[FastAPI]: https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi
-[FastAPI-url]: https://fastapi.tiangolo.com/
+<p align="left">
+<img src="https://raw.githubusercontent.com/gleb-pp/game-booking-bot/refs/heads/main/pic/sheet.jpg" width="750"/>
+</p>
