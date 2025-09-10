@@ -1,8 +1,4 @@
-# Game Booking Bot
-
-The bot helps students and staff at Innopolis University to book board games and choose a meeting time. 
-
-## Project Context
+## Game Booking Bot
 
 ### Problem
 
@@ -16,7 +12,7 @@ Innopolis University has a cabinet with board games available to all students. T
 
 The developed bot allows students to book games on their own:
 
-- **Students** can view the list of available games, select a game and time slot.
+- **Students** can view the list of available games, select a game and appropriate timeslot.
 - **Employees** do not need to communicate with each student individually; they only need to indicate the available slots in the table.
 - **Non-technical users** can monitor the current list of games in Google Sheets table, where the bot indicates the statuses.
 
@@ -37,7 +33,7 @@ When user want to take a game, the bot filters the games by language (to support
 </p>
 
 ### Meeting Arrangement
-The administrator simply needs to mark the available time slots, after which students can sign up for the game giveaway themselves..
+The administrator simply needs to mark the available time slots, after which students can sign up for the game giveaway themselves.
 
 <p align="left">
 <img src="https://raw.githubusercontent.com/gleb-pp/game-booking-bot/refs/heads/main/pic/timeslot.jpg" width="250"/>
