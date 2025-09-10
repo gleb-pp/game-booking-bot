@@ -28,8 +28,8 @@ When user interacts with the bot for the first time, the bot asks user for their
 ### Game Selection
 When user want to take a game, the bot filters the games by language and shows the list of available games.
 
-<p align="center">
-<img src="https://raw.githubusercontent.com/gleb-pp/game-booking-bot/refs/heads/main/pic/select.jpg" width="200"/>
+<p align="left">
+<img src="https://raw.githubusercontent.com/gleb-pp/game-booking-bot/refs/heads/main/pic/select.jpg" width="750"/>
 </p>
 
 ### Timeslot 
