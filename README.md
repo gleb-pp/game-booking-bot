@@ -50,5 +50,5 @@ The bot offers employees a convenient interface for manipulating games directly 
 The bot records game statuses in a Google Sheets table, allowing non-technical administrators to track game statuses in a browser or application.
 
 <p align="left">
-<img src="https://raw.githubusercontent.com/gleb-pp/game-booking-bot/refs/heads/main/pic/sheet.jpg" width="750"/>
+<img src="https://raw.githubusercontent.com/gleb-pp/game-booking-bot/refs/heads/main/pic/sheet.png" width="750"/>
 </p>
