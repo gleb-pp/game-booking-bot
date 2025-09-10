@@ -21,8 +21,8 @@ Solution
 ### Authorization
 When user interacts with the bot for the first time, the bot asks user for their corporate email address, verifies in the database and reserves for the user.
 
-<p align="center">
-<img src="https://raw.githubusercontent.com/gleb-pp/game-booking-bot/refs/heads/main/pic/auth.jpg" width="200"/>
+<p align="left">
+<img src="https://raw.githubusercontent.com/gleb-pp/game-booking-bot/refs/heads/main/pic/auth.jpg" width="300"/>
 </p>
 
 ### Game Selection
